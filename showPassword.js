@@ -3,14 +3,14 @@
 // Modified By: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0
 // File Created: mars 2020
-// Last Modified: dimanche 15 mars 2020, 05:23
-// Edit Time: 1:16:53
+// Last Modified: mercredi 18 mars 2020, 14:34
+// Edit Time: 1:17:38
 // Description:
 //      Extension for chromium and firefox
 //      Show password when double-clicking over password fields. 
 //      Same as https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl
 //      but only whith double-click.
-//      Made a clone because I couldn't trust to be auto-updated and start stealing my passwords.
+//      I made a clone because when there is a non-personal automatic update, I don’t want my passwords stolen.
 //
 // $Id:$
 
