@@ -1,18 +1,20 @@
-// Filename: showPassword.js
-// Author_: a1618@love.com
-// Modified By: Olivier Sirol <czo@free.fr>
-// License: GPL-2.0
-// File Created: mars 2020
-// Last Modified: mercredi 18 mars 2020, 14:34
-// Edit Time: 1:17:38
-// Description:
-//      Extension for chromium and firefox
-//      Show password when double-clicking over password fields. 
-//      Same as https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl
-//      but only whith double-click.
-//      I made a clone because when there is a non-personal automatic update, I don’t want my passwords stolen.
-//
-// $Id:$
+/*
+ * Filename: showPassword.js
+ * Author_: a1618@love.com
+ * Modified By: Olivier Sirol <czo@free.fr>
+ * License: GPL-2.0 (http://www.gnu.org/copyleft)
+ * File Created: mars 2020
+ * Last Modified: Saturday 13 July 2024, 17:09
+ * Edit Time: 1:22:32
+ * Description:
+ *      Extension for chromium and firefox
+ *      Show password when double-clicking over password fields.
+ *      Same as https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl
+ *      but only whith double-click.
+ *      I made a clone because when there is a non-personal automatic update, I don’t want my passwords stolen.
+ *
+ * Copyright: (C) 2020-2024 Olivier Sirol <czo@free.fr>
+ */
 
 (function (win) {
     'use strict';
