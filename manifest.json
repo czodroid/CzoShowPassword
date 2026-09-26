@@ -1,7 +1,7 @@
 {
    "manifest_version": 3,
    "name": "Czo Show Password",
-   "version": "2.0",
+   "version": "2.0.1",
 
    "description": "Show password when double-clicking over password fields.",
 
