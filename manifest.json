@@ -1,21 +1,29 @@
 {
-   "manifest_version": 3,
-   "name": "Czo Show Password",
-   "version": "2.0.1",
+  "manifest_version": 3,
+  "name": "Czo Show Password",
+  "version": "2.0.1",
+  "description": "Show password when double-clicking over password fields.",
 
-   "description": "Show password when double-clicking over password fields.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{464ee8c9-e7db-4b21-aaee-072a825f7dc5}",
+      "strict_min_version": "78.0"
+    }
+  },
 
-   "icons": {
-     "32": "icons/32.png",
-     "48": "icons/48.png",
-     "96": "icons/96.png",
-     "128": "icons/128.png"
-   },
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png"
+  },
 
-   "content_scripts": [ {
+  "content_scripts": [
+    {
       "all_frames": true,
-      "js": [ "showPassword.js" ],
-      "matches": [ "http://*/*", "https://*/*" ],
+      "js": ["showPassword.js"],
+      "matches": ["http://*/*", "https://*/*"],
       "run_at": "document_end"
-   } ]
+    }
+  ]
 }
